@@ -1,0 +1,151 @@
+/* Geral */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar-container {
+    width: 100%;
+    height: 80px;
+    background-color: #111;
+    padding: 0 1rem;
+}
+
+nav {
+    position: relative;
+}
+
+nav img {
+    border-radius: 50px;
+}
+
+.logo {
+    width: 50px;
+    margin-top: 15px;
+}
+
+.navbar-itens {
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-itens li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-itens a {
+    color: #27c6d9;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.navbar-itens a:hover {
+    color: #fff;
+}
+
+/* Main Banner */
+.main-banner {
+    background-image: url(/img/computer-networks-network-technologies-blue-neon-lines-modern-city-network-concepts.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+
+.main-banner h1,
+.main-banner p {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
+}
+
+.main-banner h1 {
+    font-size: 54px;
+}
+
+.main-banner p {
+    font-size: 34px;
+}
+
+/* Service */
+.service-container {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.service-container h3 {
+    font-size: 36px;
+    color: #27c6d9;
+    text-shadow: #000 3px 2px 3px;
+}
+
+.service-container ul {
+   display: flex;
+   width: 90%;
+   margin: 0 auto; 
+}
+
+.service-container li {
+    flex: 1 1 200px;
+    list-style: none;
+    padding: 20px;
+}
+
+.bi {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.bi-cpu {
+    color: #66c42c ;
+}
+
+.bi-code-square {
+    color: #21b4ef ;
+}
+
+.bi-broadcast-pin {
+    color: #e3765f;
+}
+
+.cases-container {
+    background-image:url(/img/RED-scaled.jpg) ;
+    padding: 10rem 0;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.cases-container h3 {
+    font-size: 36px;
+    color: #fff;
+    text-shadow: #000 3px 2px 3px;
+    margin-bottom: 2rem;
+}
+
+.btn-cases {
+    text-transform: uppercase;
+    background-color: #111;
+    padding: .5rem;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #27c6d9;
+    font-weight: bold;
+}
+
+.btn-cases:hover {
+    color: #fff ;
+    font-weight: bold;
+    background-color: #27c6d9;
+}
